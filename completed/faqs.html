@@ -1,101 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>CodeNova - Web Templates Store</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQs - CodeNova Templates Store</title>
 <link rel="stylesheet" href="assests/css/style.css">
 <!-- Font Awesome CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <!--Google font-family link-->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Inter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 <!--header-->
 <header class="reveal">
 <!--logo-->
-<div class="logo"><a href="#">
-<img src="assests\images\logo.png" alt="CodeNova Logo"></a>
+<div class="logo">
+<img src="assests\images\logo.png" alt="CodeNova Logo">
 </div>
 <!--menu togle-->
 <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Hamburger Icon -->
 <!--navbar links-->
 <nav id="navbar">
 <div class="close-btn" id="close-btn">&#10006;</div> <!-- Close Button -->
-<a href="index.html" class="active"><i class="fas fa-home"></i>&nbsp; Home</a>
+<a href="index.html"><i class="fas fa-home"></i>&nbsp; Home</a>
 <a href="products.html"><i class="fas fa-file-alt"></i>&nbsp; Templates</a>
 <a href="contact.html"> <i class="fas fa-phone"></i>&nbsp; Contact</a>
 <a href="free-templetes.html"><i class="fas fa-gift"></i>&nbsp; Freebies</a>
-<a href="faqs.html"><i class="fas fa-question-circle"></i>&nbsp; FAQs</a>    
+<a href="faqs.html" class="active"><i class="fas fa-question-circle"></i>&nbsp; FAQs</a>    
 </nav>
 </header>
-
-<!--hero section-->
-<section class="hero reveal">
-<!--a motivating text-->
-<div class="motivating-text">
-<h2>High-Quality Website Templates & UI Components,
-Build stunning websites faster with our ready-to-use templates.</h2>
-<p>Build Stunning Websites Effortlessly with CodeNova Templates! <br>
-Unlock your creativity with our premium, ready-to-use website templates and UI components. Whether you're a
-beginner or a pro, CodeNova has everything you need to craft beautiful, responsive, and high-performing
-websites—without the hassle.
-Turn your ideas into reality, Boost your projects with sleek designs that speak volumes,
-Explore our collection and build your dream website today!<i class="fas fa-love"></i>
-</p>
+<!--source container-->
+<div class="faq-container reveal">
+<div class="faq-header">
+<h1>Frequently Asked Questions</h1>
+<div class="search-container">
+<input type="text" class="search-input" placeholder="Search questions...">
 </div>
-<!--home page > image-->
-<div class="home-image"><img src="assests/images/home-image.png"></div>
-</section><br>
-<!--products-->
-<section class="featured-products reveal">
-<h1 class="reveal">Discover a World Of Possibilities With Our Customizable Templates - Get Yours Today!</h1>
-<!--products container-->
-<div class="product-container reveal">
-    <div class="product-card">
-      <h3>Portfolio Templates</h3>
-      <p class="first">Clean and modern templates designed for designers, photographers, and freelancers to showcase work.</p>
-      <img src="assests/images/portfolio.jpeg" class="first">
-    </div>
-  
-    <div class="product-card">
-      <h3>Business Website Templates</h3>
-      <p class="second">Professional templates built for small businesses with services, about pages, and contact sections.</p>
-      <img src="assests/images/business.png" class="second">
-    </div>
-  
-    <div class="product-card reveal">
-      <h3>E-Commerce Store Templates</h3>
-      <p class="third">Fully responsive templates created for online stores with structured product listings and layouts.</p>
-      <img src="assests/images/ecommerce.png" class="third">
-    </div>
-  </div>
-  
-  <br><br>
-  
-  <div class="product-container reveal">
-    <div class="product-card">
-      <h3>Blog Website Templates</h3>
-      <p class="fouth">Elegant and responsive templates suitable for personal blogs and professional content platforms.</p>
-      <img src="assests/images/blog.png" class="fourth">
-    </div>
-  
-    <div class="product-card">
-      <h3>UI Components Library</h3>
-      <p class="fifth">Reusable UI components including navbars, footers, buttons, and modern layout elements.</p>
-      <img src="assests/images/ui component.png" class="fifth">
-    </div>
-  
-    <div class="product-card">
-      <h3>Creative Agency Templates</h3>
-      <p class="last six">Creative templates designed for agencies and marketing firms with project showcase sections.</p>
-      <img src="assests/images/agency.png" class="last six">
-    </div>
-  </div>
-    </section>
+</div>
+
+<div class="faq-grid">
+<div class="faq-item">
+<div class="faq-question" aria-expanded="false" aria-controls="answer1">
+<span class="question-text">What is CodeNova Templates?</span>
+<div class="icon"><i class="fas fa-chevron-down"></i></div>
+</div>
+<div id="answer1" class="faq-answer" role="region">
+<p>CodeNova Templates offers premium website templates and UI kits designed for modern web development. Our products feature responsive layouts, clean code, and regular updates.</p></div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">
+<span class="question-text">How do I purchase a template?</span>
+<div class="icon"><i class="fas fa-chevron-down"></i></div>
+</div>
+<div class="faq-answer">
+<p>You can purchase a template directly from our website. Simply select the template you want, complete the payment process, and start downloading.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">
+<span class="question-text">Are the templates responsive?</span>
+<div class="icon"><i class="fas fa-chevron-down"></i></div>
+</div>
+<div class="faq-answer">
+<p>Yes! All our templates are designed to be fully responsive and mobile-friendly.</p>
+</div>
+</div>
+
+<!-- More FAQ items -->
+
+<div class="faq-item">
+<div class="faq-question">
+<span class="question-text">Can I customize the templates?</span>
+<div class="icon"><i class="fas fa-chevron-down"></i></div>
+</div>
+<div class="faq-answer">
+<p>Yes, all our templates are built with clean and modular code, making it easy to customize.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">
+<span class="question-text">Do you offer refunds?</span>
+<div class="icon"><i class="fas fa-chevron-down"></i></div>
+</div>
+<div class="faq-answer">
+<p>We offer refunds under specific conditions. Please check our refund policy for more details.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">
+<span class="question-text">How can I contact support?</span>
+<div class="icon"><i class="fas fa-chevron-down"></i></div>
+</div>
+<div class="faq-answer">
+<p>You can reach out to our support team through our contact page. <a href="contact.html">Contact Us</a></p>
+</div>
+</div>
+
+</div>
+
+<div class="back-to-top" id="backToTop">
+<i class="fas fa-arrow-up"></i>
+</div>
+</div>
+<div class="contact-prompt reveal">
+<p>Still have questions?</p><br>
+<a href="contact.html" class="contact-link">Contact Our Support Team</a>
+</div><br><br><br>
 <!-- Support Center Widget -->
 <div class="support-widget">
 <button class="support-button" id="supportButton">
@@ -146,8 +162,7 @@ Explore our collection and build your dream website today!<i class="fas fa-love"
 <p>© <script>document.write(new Date().getFullYear())</script> CodeNova Templates • We're here to help!</p>
 </div>
 </div>
-</div>
-<br><br><br>
+</div><br><br><br>
 <!--footer-->
 <footer>
 <div class="footer-container reveal">
@@ -162,8 +177,8 @@ Explore our collection and build your dream website today!<i class="fas fa-love"
 <ul>    
 <li><a href="products.html">Products</a></li>
 <li><a href="free-templetes.html">Freebies</a></li>
-<li><a href="privacy-and-policy.html">Privacy & Policy</a></li>
-<li><a href="faqs.html"></i>FAQs</a></li>
+<li><a href="privacy-and-policy.html">Privacy-Policy</a></li>
+<li><a href="faqs.html" class="active"></i>FAQs</a></li>
 </ul>
 </div>
 <!--social links-->
@@ -184,5 +199,8 @@ Explore our collection and build your dream website today!<i class="fas fa-love"
 <script src="assests/js/reveal.js"></script>
 <script src="assests/js/dropdown.js"></script>
 <script src="assests/js/support-center.js"></script>
+<script src="assests/js/faqs.js"></script>
+</body>
+</html>
 </body>
 </html>
